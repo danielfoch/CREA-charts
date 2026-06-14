@@ -1,0 +1,15 @@
+{
+  "name": "crea-charts",
+  "version": "0.1.0",
+  "private": false,
+  "type": "module",
+  "description": "Agent-friendly examples for pulling Canadian housing charts from the CREA Stats Explorer API.",
+  "bin": {
+    "crea-chart": "./bin/pull-chart.mjs"
+  },
+  "license": "MIT",
+  "scripts": {
+    "sample": "node bin/pull-chart.mjs \"view=compare&g=toronto,calgary&m=ap&base=202201\" -o chart.png"
+  }
+}
+
